@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2: Geto's Pizzeria </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This week we will be looking at CSS Grid">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- add google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- add our CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <!-- logo container -->
+        <div>
+            <a href="index.html"><img src="./img/geto.png" alt="header logo"></a>
+        </div>
+        <div>
+            <h1>GETO'S</h1>
+            <h1>PIZZERIA</h1>
+        </div>
+        <!-- site navigation -->
+        <nav>
+            <menu>
+                <li><a href="#" target="_self">Order Online</a> </li>
+                <li><a href="#" target="_self">Menu</a> </li>
+                <li><a href="#" target="_self">Monkey Rewards</a> </li>
+            </menu>
+        </nav>
+        <div>
+            <h2>If You Need To Get In Contact With Us For A Concern, DON'T</h2>
+        </div>
+        <div>
+            <p>If you're one of Gojo's students you get half off.</p>
+            <p>That's only if you're a special grade. Don't be weak.</p>
+        </div>
+    </header>
+    <section class="masthead">
+        <h1>GETO'S PIZZERIA</h1>
+       <h2>FUCK YOU GOJO</h2>
+    </section>
+    <main>
+        <section>
+            <div>
+                <h3>Enter Name For Order:</h3>
+            </div>
+            <div>
+                <form action="form-group" method="post">
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Enter Email For Order:</h3>
+            </div>
+            <div>
+                <form action="form-group" method="post">
+                    <input type="email" id="email" name="name" placeholder="example@website.ca">
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Pick Your Pizza Size:</h3>
+            </div>
+            <div>
+                <form action="form-group" method="post">
+                    <label><input type="radio" id="size1" name="small" value="Small">Small</label>
+                    <label><input type="radio" id="size2" name="medium" value="Medium">Medium</label>
+                    <label><input type="radio" id="size3" name="large" value="Large">Large</label>
+                    <label><input type="radio" id="size4" name="xl" value="XL">Extra Large</label>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Pick Your Toppings:</h3>
+            </div>
+            <div class="toppings">
+                <form action="form-group" method="post">
+                    <!--topping input is a checkbox-->
+                    <label><input type="checkbox" id="choice1" name="pepperoni" value="Pepperoni">Pepperoni</label>
+
+                    <label><input type="checkbox" id="choice2" name="sausage" value="Sausage">Sausage</label>
+
+                    <label><input type="checkbox" id="choice3" name="peppers" value="Peppers">Green Peppers</label>
+
+                    <label><input type="checkbox" id="choice4" name="Golives" value="Golives">Green Olives</label>
+
+                    <p></p>
+
+                    <label><input type="checkbox" id="choice5" name="Bolives" value="Bolives">Black Olives</label>
+
+                    <label><input type="checkbox" id="choice6" name="onion" value="onion">Onion</label>
+
+                    <label><input type="checkbox" id="choice7" name="bacon" value="Bacon">Bacon</label>
+
+                    <label><input type="checkbox" id="choice8" name="Echeese" value="Echeese">Extra Cheese + $1.50</label>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Enter Delivery Location:</h3>
+            </div>
+            <div>
+                <form action="form-group" method="post">
+                    <input type="text" id="location" name="location" placeholder="delivery address">
+                    <p></p>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="index.html"><img src="./img/geto.png" alt=" footer logo"></a>
+        </div>
+        <div>
+            <h5>About Geto's Pizzeria</h5>
+            <p>Geto's Pizzeria is all about serving the truly worthy, and not those filthy monkeys. As my first call to action I asked Gojo: "Are you the strongest because you're Gojo Satoru, or are you Gojo Satoru because you're the strongest?" and I will take that question to the business of making pizza. </p>
+        </div>
+    </footer>
+</body>
+</html>

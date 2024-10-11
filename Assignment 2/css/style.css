@@ -1,0 +1,109 @@
+
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 125px;
+    width: 1200px;
+}
+header > div{
+    width: auto;
+    height: 115px;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > div > h1{
+    color: #112704;
+    font-size: 30px;
+}
+header > nav > menu{
+    padding-left: 20%;
+    display: block;
+    list-style: none;
+    text-align: center;
+    width: 120px;
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+}
+header > div > p{
+    padding-left: 80px;
+    font-family: "Roboto", sans-serif;
+}
+header > div > h2{
+    padding-left: 80px;
+    font-family: "Poppins", sans-serif;
+}
+
+.masthead{
+    grid-area: hero;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #cdb5ee;
+    height: 40vh;
+}
+.masthead > h1{
+    color: #112704;
+    font-size: 58px;
+}
+main > section > div {
+    grid-area: form-group;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section > div > label{
+    text-align: end;
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+main > section > div > h3{
+    text-align: center;
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+}
+.form-group input[type="checkbox"] {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-right: 10px;
+}
+
+.toppings label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 1200px;
+}
+footer > div > a > img{
+    padding: 20px;
+    height: 110px;
+}
+footer > div > h5{
+    align-items: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+footer > div > p{
+    padding: 10px;
+    height: 80px;
+    width: 600px;
+}
+
