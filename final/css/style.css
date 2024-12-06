@@ -1,0 +1,51 @@
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 115px;
+    padding: 10px 0px;
+    align-items: center;
+    background-color: #fffffb;
+}
+header > div{
+    width: auto;
+    height: 100%;
+    flex-grow: 1;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > nav > menu{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header > nav > menu > li{
+    padding: 0px 10px;
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+}
+.scrolledHeader{
+    height: 115px;
+}
+.hero{
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero > div > h1{
+    font-size: 65px;
+    color: #fffffb;
+}
